@@ -1,0 +1,61 @@
+body {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+	color: #fff;
+	font-family: "Century Gothic";
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav-menu {
+	display: flex;
+	list-style: none;
+	margin-left: 620px;
+}
+
+.nav-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50 30px;
+	width: 76px;
+	height: 76px;
+	background: linear-gradient(-45deg, #E6E6FA 70%, #8A2BE2 30%);
+	background-size: 700%;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	transition: 0.5s;
+}
+
+.nav-link {
+	color: #E6E6FA;
+	rext-decoration: none;
+	font-size: 50px;
+	transition: 0.5s;
+}
+
+.nav-item:hover {
+	background-position: 40% 40%;
+}
+
+.nav-item:hover .nav-link {
+	color: #8A2BE2;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 25px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 50px;
+}
